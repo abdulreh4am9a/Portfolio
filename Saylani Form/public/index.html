@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Saylani Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.png">
+</head>
+<body>
+    <img id="img" src="images/Saylani-logo.png" alt="Saylani-logo">
+    <div>
+        <h1 id="title">STUDENT REGISTRATION FORM</h1>
+        <br>
+        <form action="confirm.html" class="form">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" placeholder="Enter First Name" size="30">
+            <p id="remarks">(max 30 characters a-z or A-Z)</p>
+            <br>
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" placeholder="Enter Last Name" size="30">
+            <p id="remarks">(max 30 characters a-z or A-Z)</p>
+            <br>
+            <label for="dob">DATE OF BRTH</label>
+            <input type="date" id="dob">
+            <br>
+            <label for="email">EMAIL ID</label>
+            <input type="email" id="email" placeholder="Enter email id">
+            <br>
+            <label for="mobile">MOBILE NUMBER</label>
+            <input type="number" id="mobile" size="10" placeholder="Enter mobile number">
+            <p id="remarks">(10 digit number)</p>
+            <br>
+            <label for="gender">GENDER</label>
+            <p id="remarks">Male</p>
+            <input type="radio" name="male" id="gender">
+            <p id="remarks">Female</p>
+            <input type="radio" name="female" id="gender">
+            <br>
+            <label for="add" id="top">ADDRESS</label>
+            <textarea id="add" cols="30" rows="4"></textarea>
+            <br>
+            <label for="city">CITY</label>
+            <input type="text" id="city" placeholder="Enter City Name" size="30">
+            <p id="remarks">(max 30 characters a-z or A-Z)</p>
+            <br>
+            <label for="code">PIN CODE</label>
+            <input type="number" id="code" placeholder="Enter pin code" size="6">
+            <p id="remarks">(6 digit number)</p>
+            <br>
+            <label for="state">STATE</label>
+            <input type="text" id="state" placeholder="Enter state" size="30">
+            <p id="remarks">(max 30 characters a-z or A-Z)</p>
+            <br>
+            <label for="country">COUNTRY</label>
+            <input type="text" id="country" placeholder="Enter Country">
+            <br>
+            <label for="hobby">HOBBIES</label>
+            <p id="remarks">Drawing</p>
+            <input type="checkbox" name="drawing" id="hobby">
+            <p id="remarks">Singing</p>
+            <input type="checkbox" name="singing" id="hobby">
+            <p id="remarks">Dancing</p>
+            <input type="checkbox" name="dancing" id="hobby">
+            <p id="remarks">Sketching</p>
+            <input type="checkbox" name="sketcing" id="hobby">
+            <p id="remarks">Others</p>
+            <input type="checkbox" name="others" id="hobby">
+            <input type="text" id="hobby">
+            <br>
+            <label for="tab">QUALIFICATION</label>
+            <table id="tab">
+                <tr>
+                    <th>S. No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td id="cont">1</td>
+                    <td id="cont">Class X</td>
+                    <td>
+                        <input type="text" size="10">
+                    </td>
+                    <td>
+                        <input type="number" step=".01">
+                    </td>
+                    <td>
+                        <input type="number" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="cont">2</td>
+                    <td id="cont">Class XII</td>
+                    <td>
+                        <input type="text" size="10">
+                    </td>
+                    <td>
+                        <input type="number" step=".01">
+                    </td>
+                    <td>
+                        <input type="number" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="cont">3</td>
+                    <td id="cont">Graduation</td>
+                    <td>
+                        <input type="text" size="10">
+                    </td>
+                    <td>
+                        <input type="number" step=".01">
+                    </td>
+                    <td>
+                        <input type="number" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="cont">4</td>
+                    <td id="cont">Masters</td>
+                    <td>
+                        <input type="text" size="10">
+                    </td>
+                    <td>
+                        <input type="number" step=".01">
+                    </td>
+                    <td>
+                        <input type="number" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        (10 characters max)
+                    </td>
+                    <td>
+                        (upto 2 decimal)
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <label for="course">COURSES APPLIED FOR</label>
+            <p id="remarks">BCA</p>
+            <input type="radio" name="bca" id="course">
+            <p id="remarks">B. Com</p>
+            <input type="radio" name="bcom" id="course">
+            <p id="remarks">B. Sc</p>
+            <input type="radio" name="bsc" id="course">
+            <p id="remarks">B. A</p>
+            <input type="radio" name="ba" id="course">
+            <div class="container">
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

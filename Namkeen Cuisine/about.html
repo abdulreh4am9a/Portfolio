@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namkeen Cuisine | About</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav style="background-color: #efaf1d !important;" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img class="logo" src="images/namkeencuisine.png" width="70px"
+        height="70px"><span class="name">Namkeen Cuisine</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto"> </ul>
+      <span class="navbar-text text">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reserve">Reserve A Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </nav>
+  <div id="about">
+    <blockquote class="blockquote text-center">
+      <h1 class="heading">About Us</h1>
+      <p class="mb-0 discription">
+        Welcome to Namkeen Cuisine, your number one place to enjoy food. We're dedicated to giving you the very best
+        quality, with a focus on hygiene, taste and resonable price.
+        <br>
+        <br>
+        Founded in 2017, Namkeen Cuisine has come a long way from its beginnings in Islamabad. Our passion for quality
+        food drove us to work hard so that Namkeen Cuisine can offer you the most delicious food.
+        <br>
+        <br>
+        We hope you enjoy our dishes as much as we enjoy offering them to you. If you have any questions or comments,
+        please don't hesitate to contact us.
+
+      </p>
+    </blockquote>
+  </div>
+  <div id="reserve">
+    <h1 class="heading">Reserve a Table</h1>
+    <form action="thanks.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Enter first name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Enter last name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="phone">Phone</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="phone" name="phone" maxlength="11" placeholder="Enter phone number like this 03XXXXXXXXX" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="persons">No. of Persons</label>
+          </div>
+          <div class="col-75">
+            <select id="persons" name="persons" required>
+              <option value="one">1 Person</option>
+              <option value="two">2 Person</option>
+              <option value="three">3 Person</option>
+              <option value="four">4+ Person</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="date">Date & Time</label>
+          </div>
+          <div class="col-75">
+            <input type="datetime-local" id="date" name="date" placeholder="Select Date and Time" required>
+          </div>
+        </div>
+        <div class="row">
+          
+        </div>
+        <div class="row">
+          <p class="col-35">
+            <br>
+            <input type="submit" value="Reserve">
+          </p>
+        </div>
+    </form>
+  </div>
+  <footer>
+    <div class="icons">
+      <a href="https://www.facebook.com/NamkeenCuisine/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="mailto:namkeencuisine@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a href="tel:051-831-6672"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      <a href="https://goo.gl/maps/3BeoRd7dmHgwSz1f6" target="_blank"><i class="fa fa-map-marker"
+          aria-hidden="true"></i></a>
+      <p>&copy; Copyright 2020 @ Namkeen Cuisine</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
